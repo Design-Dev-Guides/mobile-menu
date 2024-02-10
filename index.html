@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magical Mobile Menu</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- YOUR CODE START HERE -->
+
+    <div class="container">
+      <div class="list">
+        <input type="radio" id="home" name="navigation" class="input" checked />
+        <label for="home" class="link">
+          <ion-icon class="link-icon" name="home-outline"></ion-icon>
+          <span class="link-label">Home</span>
+        </label>
+        <input type="radio" id="user" name="navigation" class="input" />
+        <label for="user" class="link">
+          <ion-icon class="link-icon" name="person-outline"></ion-icon>
+          <span class="link-label">User</span>
+        </label>
+        <input type="radio" id="msg" name="navigation" class="input" />
+        <label for="msg" class="link">
+          <ion-icon class="link-icon" name="chatbubble-outline"></ion-icon>
+          <span class="link-label">Message</span>
+        </label>
+        <input type="radio" id="photo" name="navigation" class="input" />
+        <label for="photo" class="link">
+          <ion-icon class="link-icon" name="camera-outline"></ion-icon>
+          <span class="link-label">Photo</span>
+        </label>
+        <input type="radio" id="settings" name="navigation" class="input" />
+        <label for="settings" class="link">
+          <ion-icon class="link-icon" name="settings-outline"></ion-icon>
+          <span class="link-label">Settings</span>
+        </label>
+        <div class="indicator"></div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
